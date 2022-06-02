@@ -19,6 +19,7 @@ class CreateArticlesTable extends Migration
             $table->text('content');
             $table->string('featured_image');
             $table->timestamps();
+            
         });
     }
 
