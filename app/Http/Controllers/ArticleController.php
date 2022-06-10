@@ -20,7 +20,7 @@ class ArticleController extends Controller
         return view('articles.index', compact('articles'));
     }
 
-    /**
+     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
